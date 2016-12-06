@@ -1,0 +1,42 @@
+body{
+	background-image: url(bg.jpg);
+}
+header{
+	font-size:32pt;
+	text-align:center;
+    color:yellow;
+	line-height:10px;
+}
+.banner_marquee{
+	font-size:16pt;
+	witdh:100%;
+	line-height:32px;
+	direction=left;
+	scrolldelay=100;
+	behavior=alternate;
+	scrollamount=10;
+}
+.img_banner{
+	height:150px;
+	width:800px;
+}
+content{
+	color:yellow;
+	font-size:15pt;
+}
+content p{
+	text-indent:2em;
+}
+ul{
+	list-style-type:square;
+}
+.float_pic{
+	float:right;
+}
+footer{
+
+	width:100%;
+	text-align:center;
+    color:yellow;
+	line-height:10px;
+}
